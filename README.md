@@ -1,12 +1,20 @@
 # Detección del estado fisiológico del ojo para captar la fatiga en conductores
+## Code header & Configuration
+_pip3 install opencv-python_
+
+* import cv2
+* import mediapipe as mp
+* import numpy as np
+* import matplotlib.pyplot as plt
+* from collections import deque
 
 ## Hipótesis
-• La fatiga y la somnolencia influyen de manera significativa en accidentes de tránsito.
+* La fatiga y la somnolencia influyen de manera significativa en accidentes de tránsito.
 
-• Existen sistemas y algoritmos que reconocen la fatiga y somnolencia en conductores
+* Existen sistemas y algoritmos que reconocen la fatiga y somnolencia en conductores
 gracias a la visión computacional
 
-• No todos los algoritmos de detección de fatiga son fiables y muy eficaces para un
+* No todos los algoritmos de detección de fatiga son fiables y muy eficaces para un
 escenario de conducción, más cuando se toman en cuenta factores como la luminosidad,
 contraste, balance de blancos, etc.
 
