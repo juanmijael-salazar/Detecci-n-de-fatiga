@@ -1,13 +1,13 @@
 # Detección del estado fisiológico del ojo para captar la fatiga en conductores
 ## Code header & Configuration
 _pip3 install opencv-python_
-
-* import cv2
-* import mediapipe as mp
-* import numpy as np
-* import matplotlib.pyplot as plt
-* from collections import deque
-
+```
+import cv2
+import mediapipe as mp
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import deque
+```
 ## Hipótesis
 * La fatiga y la somnolencia influyen de manera significativa en accidentes de tránsito.
 
